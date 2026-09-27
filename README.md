@@ -16,10 +16,15 @@ git clone https://github.com/YOUR_USERNAME/langgraph-research-agent.git cd langg
 ``` 
 ### 2. Set up virtual environment &amp; install dependencies 
 ```bash
-python -m venv venv source venv/bin/activate # On Windows: venvScriptsactivate pip install -r requirements.txt ``` 
+python -m venv venv source venv/bin/activate # On Windows: venvScriptsactivate pip install -r requirements.txt
+``` 
 ### 3. Set up Environment Variables Copy `.env.example` to `.env` and fill in your API keys: 
 ```bash 
 cp .env.example .env 
 ``` 
 --- 
-## 🏗️ Tech Stack * **Framework**: LangGraph, LangChain * **LLM Providers**: Google Gemini / Groq / OpenAI * **Search Engine**: Tavily API * **Data Validation**: Pydantic
+## 🏗️ Tech Stack 
+* **Framework**: LangGraph, LangChain
+* **LLM Providers**: Google Gemini / Groq / OpenAI
+* **Search Engine**: Tavily API
+* **Data Validation**: Pydantic
